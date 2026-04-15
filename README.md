@@ -1,3 +1,1 @@
-# sprouticus.github.io
-
-This is a website. 
+This is a website. There are many like it, but this one is mine. 
