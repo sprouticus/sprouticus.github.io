@@ -6,4 +6,4 @@ I've led technical cross-functional teams sizes from 5 to 30+ ICs and managers, 
 
 Fully remote since before it was cool.
 
-![Lesley Yarbrough - Product | Engineering | Support | Operations](assets/Headshot-500px.jpg)
+![Lesley Yarbrough](assets/Headshot-500px.jpg)
