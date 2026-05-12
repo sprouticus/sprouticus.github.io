@@ -5,3 +5,5 @@ I'm a builder. A driver. A problem solver. With over fifteen years of founding-h
 I've led technical cross-functional teams sizes from 5 to 30+ ICs and managers, and I've spent enough time in the weeds with code, data, and APIs to work shoulder-to-shoulder with engineers as they build. I understand the customer deeply, remove friction relentlessly, and build teams capable of shipping work that actually moves the needle.
 
 Fully remote since before it was cool.
+
+![Lesley Yarbrough - Product | Engineering | Support | Operations](assets/Headshot-500px.jpg)
