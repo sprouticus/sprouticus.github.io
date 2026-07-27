@@ -146,7 +146,7 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 }
 .thumb-image {
   display: block;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   background: var(--bg-raised);
   border: 1px solid rgba(243, 241, 236, 0.14);
   border-radius: 8px;
@@ -258,7 +258,7 @@ footer {
 }
 .gallery figure {
   margin: 0;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
   background: var(--bg-raised);
   border: 1px solid rgba(243, 241, 236, 0.14);
