@@ -32,8 +32,34 @@ document.addEventListener('DOMContentLoaded', function () {
     if (e.key === 'Escape') {
       closeAllModals();
       closeLightbox();
+      closeMobileNav();
     }
   });
+
+  // --- Mobile hamburger nav ---
+  var navToggle = document.querySelector('.nav-toggle');
+  var mobileNav = document.querySelector('.mobile-nav');
+
+  function closeMobileNav() {
+    if (!navToggle || !mobileNav) return;
+    mobileNav.classList.remove('open');
+    navToggle.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  if (navToggle && mobileNav) {
+    navToggle.addEventListener('click', function () {
+      var isOpen = mobileNav.classList.toggle('open');
+      navToggle.classList.toggle('open', isOpen);
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    mobileNav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMobileNav);
+    });
+  }
 
   // --- Photography lightbox (nested inside the photography modal) ---
   var lightbox = document.getElementById('lightbox');
